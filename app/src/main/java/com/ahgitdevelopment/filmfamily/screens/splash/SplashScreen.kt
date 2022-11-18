@@ -42,7 +42,9 @@ fun SplashScreen(navController: NavController, viewModel: SplashViewModel = hilt
 @Composable
 fun Splash() {
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .background(Color.Black),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {

@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.ahgitdevelopment.filmfamily.screens.LoginScreen
+import com.ahgitdevelopment.filmfamily.screens.login.LoginScreen
 import com.ahgitdevelopment.filmfamily.screens.splash.SplashScreen
 
 @Composable
