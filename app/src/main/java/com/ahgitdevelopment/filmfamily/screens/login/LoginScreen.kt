@@ -39,7 +39,7 @@ fun LoginScreen(
     }
 
     if (isAnonymousUser && authResultCode != LoginViewModel.AuthResultCode.CANCELLED) {
-        LaunchedEffect(key1 = isAnonymousUser) {
+        LaunchedEffect(true) {
             loginLauncher.launch(viewModel.buildLoginIntent())
         }
     }

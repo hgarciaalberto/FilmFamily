@@ -57,6 +57,7 @@ class LoginViewModel @Inject constructor(
             .setAvailableProviders(
                 listOf(
                     AuthUI.IdpConfig.EmailBuilder().build(),
+                    AuthUI.IdpConfig.AnonymousBuilder().build(),
                     AuthUI.IdpConfig.GoogleBuilder().build()
                 )
             )
